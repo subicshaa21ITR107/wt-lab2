@@ -1,0 +1,9 @@
+.nav-link{
+    font-size:15px;
+    font-weight: bold;
+    border:2px solid transparent;
+}
+.nav-link:hover{
+    border-bottom: 2px solid blue;
+    transition: .1s;
+}

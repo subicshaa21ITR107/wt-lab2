@@ -1,0 +1,122 @@
+<html>
+<head>
+<title>Registration form</title>
+<style>
+fieldset{
+background-color: lightblue;
+border-color: red;
+padding: 20px;
+width: 500px;
+
+}
+input[type=submit]{
+background-color: pink;
+cursor: pointer;
+}
+input[type=submit]:hover{
+background-color: green;
+}
+input[type=cancel]{
+background-color: pink;
+width: 50px;
+cursor: pointer;
+}
+input[type=cancel]:hover{
+background-color: green;
+}
+</style>
+</head>
+<body>
+<h1 style="color:blue"><center>EUPHORIA:SHOPPING EXTRAORDINAIRE</center></h1>
+<form>
+<center><fieldset>
+<legend style="color:purple">DETAILS</legend> 
+<fieldset>
+<legend style="color:purple">Personal Details</legend>
+<div>
+<label for="name">Name:</label>
+<input type="text" placeholder="enter your name">
+</div>
+<br>
+<div>
+<label for="email">E-mail Address:</label>
+<input type="text" placeholder="abc@gmail.com">
+</div>
+<br>
+<div>
+<label for="number">Phone number:</label>
+<input type="text" placeholder="enter your phone number" value="+91" enabled>
+</div>
+</fieldset>
+<br>
+<fieldset>
+<legend style="color:purple">COMPLETE shipping Address</legend>
+<div>
+<label for="Street Address">Street Address</label>
+<textarea name="Enter your address" rows="4" cols="25"></textarea>
+</div>
+<br>
+<div>
+<label for="city">City</label>
+<input type="text" placeholder="enter your city">
+</div>
+<br>
+<div>
+<label for="code">Postal/ Zip code</label>
+<input type="text">
+</div>
+<br>
+<div>
+<label>Country</label>
+<select>
+<option>India</option>
+<option>SriLanka</option>
+<option>Singapore</option>
+<option>Malaysia</option>
+</select>
+</div>
+<br>
+<div>
+<label>State</label>
+<select>
+<option>Andhra Pradesh</option>
+<option>Karnataka</option>
+<option>Kerala</option>
+<option>Tamil nadu</option>
+<option>Telungana</option>
+</select>
+</div>
+</fieldset>
+<br>
+<div>
+<fieldset>
+<legend style="color:purple">Delivery Details</legend>
+<div>
+<label>Item name</label>
+<input type="checkbox">Coffee
+<input type="checkbox">Dark Chocolates
+<input type="checkbox">Biscits
+<input type="checkbox">Ice cream
+</div>
+<br>
+<div>
+<label>Quantity</label>
+<input type="number">
+</div>
+<br>
+<label>Delivery Options</label>
+<select>
+<option>Cash on delivery</option>
+<option>Credit card</option>
+<option>Debit card</option>
+</select>
+</div>
+<br>
+<input type="submit" value="submit">
+<input type="cancel" value="cancel">
+<br>
+</fieldset>
+</fieldset>
+</form>
+</body>
+</html>
